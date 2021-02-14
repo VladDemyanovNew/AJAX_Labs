@@ -51,5 +51,42 @@ button {
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
 
+/* lab2 */
+
+.lab2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lab2 .description {
+    background-color: rgb(223, 226, 43);
+    padding: 10px;
+}
+
+.lab2 .description p {
+    color: white;
+}
+
+.lab2 .output {
+    background-color: rgb(202, 199, 38);
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.lab2 .output .about {
+    padding: 10px;
+   
+}
+
+.lab2 .output .result {
+    background-color: rgb(168, 177, 38);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
