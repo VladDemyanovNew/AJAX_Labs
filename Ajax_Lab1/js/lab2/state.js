@@ -1,12 +1,11 @@
 
 let state = {
     posts: [
-        {id: 1, message: 'Hi, how are you?'},
-        {id: 2, message: 'It\'s my first post'}
+        // {id: 1, message: 'Hi, how are you?'},
     ]
 };
 
-async function conectToServer() {
+export async function conectToServer() {
     let response = await fetch('php/lab2.php', {
         method: 'POST',
         headers: {
@@ -15,9 +14,5 @@ async function conectToServer() {
         body: JSON.stringify(state)
       });
 }
-
-conectToServer();
-
-
 
 export {state};

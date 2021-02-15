@@ -6,6 +6,7 @@ lab1();
 
 $(document).ready(function() {
     $('.lab2 .description button').on('click', lab2);
+    $('.lab2 .addition button').on('click', lab2_addition);
 });
 
-lab2_addition();
+//lab2_addition();
