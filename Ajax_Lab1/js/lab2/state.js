@@ -5,7 +5,7 @@ let state = {
     ]
 };
 
-export async function conectToServer() {
+export async function connectToServer() {
     let response = await fetch('php/lab2.php', {
         method: 'POST',
         headers: {
@@ -13,6 +13,9 @@ export async function conectToServer() {
         },
         body: JSON.stringify(state)
       });
+
+    let result = await response.json();
+    state = result;
 }
 
 export {state};

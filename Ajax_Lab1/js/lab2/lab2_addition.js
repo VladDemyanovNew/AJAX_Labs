@@ -1,5 +1,5 @@
 
-import {state, conectToServer} from './state.js';
+import {state, connectToServer} from './state.js';
 
 
 function getDataFromTextarea() {
@@ -18,7 +18,7 @@ function lab2_addition() {
    
     const output = document.querySelector(".lab2 .addition .main .posts");
     output.innerHTML = postsElements.join('');
-    conectToServer();
+    connectToServer();
 }
 
 export {lab2_addition};

@@ -69,11 +69,27 @@ button {
 .lab2 .description {
     grid-area: description;
     background-color: rgb(223, 226, 43);
-    padding: 10px;
 }
 
 .lab2 .description p {
     color: white;
+}
+
+.lab2 .description_item1 {
+    padding: 10px;
+}
+
+.lab2 .description_item2 {
+    padding: 10px;
+    background-color: rgb(226, 214, 43);
+}
+
+.lab2 .description_item2 .file_button {
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
 }
 
 .lab2 .output {
@@ -91,7 +107,7 @@ button {
 .lab2 .output .result {
     background-color: rgb(168, 177, 38);
     color: white;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     display: flex;
     justify-content: center;
