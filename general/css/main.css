@@ -13,7 +13,7 @@ button {
 }
 
 .wrapper {
-    padding: 3% 15% 0 15%;
+    padding: 3% 15% 3% 15%;
 }
 
 /* lab1 */
@@ -136,4 +136,102 @@ button {
     height: 100px;
     font-size: 30px;
     resize: none;
+}
+
+/* Lab4 */
+
+.lab4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.lab4 .description {
+    background-color: #f39c12;
+    padding: 10px;
+}
+
+.lab4 .description p {
+    color: white;
+}
+
+.lab4 .output {
+    background-color: #e67e22;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.lab4 .output .about {
+    padding: 10px;
+
+}
+
+.lab4 .output .result {
+    background-color: #d35400;
+    color: white;
+}
+
+.lab4 .output .result {
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+}
+
+.lab4 .animate-place {
+    position: relative;
+}
+
+.lab4 .progress {
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+}
+
+.lab4 .progress .greenBar {
+    width: 0%;
+    background-color: #4CAF50;
+    color: white;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.lab4 .animate-place .square {
+    background-color: cyan;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+/* Lab6 */
+.lab6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.lab6 .description {
+    background-color: #ddf312;
+    padding: 10px;
+}
+
+.lab6 .description p {
+    color: white;
+}
+
+.lab6 .output {
+    background-color: #cfc41f;
+    display: grid;
+    color: black;
+}
+
+.lab6 .json {
+    background-color: #e6e322;
+    padding: 10px;
+}
+
+.lab6 .result {
+    padding: 10px;
+}
+
+.lab6 .result span, .lab6 .json span {
+    color:white;
 }
