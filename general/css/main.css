@@ -235,3 +235,70 @@ button {
 .lab6 .result span, .lab6 .json span {
     color:white;
 }
+
+/* Lab7 */
+.lab7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lab7 .description {
+    background-color: #09ff00;
+    padding: 10px;
+}
+
+.lab7 .description p {
+    color: white;
+}
+
+.lab7 .output {
+    background-color: #01a009;
+    color: black;
+    padding: 10px;
+}
+
+/* Lab8 */
+.lab8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lab8 .description {
+    background-color: #008cff;
+    padding: 10px;
+}
+
+.lab8 .description p {
+    color: white;
+}
+
+.lab8 .output {
+    background-color: #005d92;
+    color: black;
+    padding: 10px;
+}
+
+/* Lab9 */
+.lab10 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lab10 .description {
+    background-color: #8400ff;
+    padding: 10px;
+}
+
+.lab10 .description p {
+    color: white;
+}
+
+.lab10 .output {
+    background-color: #6b00cf;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
