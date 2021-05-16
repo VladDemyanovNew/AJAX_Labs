@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Задание 1 -->
+        <div class="ex1">
+            <h1>Задание №1</h1>
+
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-alerts-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-alerts" type="button" role="tab" aria-controls="nav-alerts"
+                        aria-selected="true">Уведомления</button>
+                    <button class="nav-link" id="nav-pagination-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-pagination" type="button" role="tab" aria-controls="nav-pagination"
+                        aria-selected="false">Постраничная навигация</button>
+                    <button class="nav-link" id="nav-buttons-tab" data-bs-toggle="tab" data-bs-target="#nav-buttons"
+                        type="button" role="tab" aria-controls="nav-buttons" aria-selected="false">Кнопки</button>
+                    <button class="nav-link" id="nav-tables-tab" data-bs-toggle="tab" data-bs-target="#nav-tables"
+                        type="button" role="tab" aria-controls="nav-tables" aria-selected="false">Таблицы</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <!-- Уведомления -->
+                <div class="tab-pane fade show active" id="nav-alerts" role="tabpanel" aria-labelledby="nav-alerts-tab">
+                    <div class="alerts_section tab_content_style">
+                        <p class="lead">Уведомления</p>
+
+                        <div class="alert alert-success" role="alert">Отлично!Так держать </div>
+                        <div class="alert alert-info" role="alert">Подсказка!Тут должна быть важная информация</div>
+                        <div class="alert alert-warning" role="alert">Warning!Будь внимательнее </div>
+                        <div class="alert alert-danger" role="alert">Ошибка!Сервер недоступен </div>
+                    </div>
+                </div>
+                <!-- Постраничная навигация -->
+                <div class="tab-pane fade" id="nav-pagination" role="tabpanel" aria-labelledby="nav-pagination-tab">
+                    <div class="pagination_section tab_content_style">
+                        <p class="lead">Постраничная навигация</p>
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Кнопки -->
+                <div class="tab-pane fade" id="nav-buttons" role="tabpanel" aria-labelledby="nav-buttons-tab">
+
+                    <div class="buttons_section tab_content_style">
+                        <p class="lead">Кнопки</p>
+                        <button type="button" class="btn btn-default">Кнопка</button>
+                        <button type="button" class="btn btn-primary">Основная</button>
+                        <button type="button" class="btn btn-success">Успех</button>
+                        <button type="button" class="btn btn-info">Информация</button>
+                        <button type="button" class="btn btn-warning">Внимание</button>
+                        <button type="button" class="btn btn-danger">Ошибка</button>
+                        <button type="button" class="btn btn-link">Ссылка</button>
+                    </div>
+                </div>
+                <!-- Таблицы -->
+                <div class="tab-pane fade" id="nav-tables" role="tabpanel" aria-labelledby="nav-tables-tab">
+                    <div class="tables_section tab_content_style">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First</th>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2">Larry the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Задание 2 -->
+        <div class="ex2 ex_div">
+            <h1>Задание №2</h1>
+            <table class="table table-striped .table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td class="table-active">Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Задание 3 -->
+        <div class="ex3 ex_div">
+            <h1>Задание №3</h1>
+
+            <div class="padding_div">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+
+            <div class="padding_div">
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+            </div>
+
+            <div class="d-grid gap-2 padding_div">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-primary disabled" type="button">Button</button>
+            </div>
+
+        </div>
+
+        <!-- Задание 4 -->
+        <div class="ex4 ex_div">
+            <h1>Задание №4</h1>
+            <form role="form" class="was-validated">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control is-invalid" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" are-required>
+                    <div class="invalid-feedback">
+                        Please enter a message in the textarea.
+                    </div>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Забыли пароль?</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <!-- Задание 5 -->
+        <div class="ex5 ex_div">
+            <p class="h1">Задание №5</p>
+            <p class="lead text-left">Header 1</p>
+            <p class="bg-primary text-left">Lorem ipsum dolor <small>consectetur adipisicing elit.</small> sit amet Eius
+                illo iste
+                nostrum excepturi iusto, deleniti
+                rerum amet <mark>sint impedit accusamus vero</mark> dolores aspernatur obcaecati incidunt delectus
+                laborum
+                modi cumque.</p>
+            <p class="lead text-end">Header 2</p>
+            <p class="bg-success text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo iste
+                nostrum excepturi iusto, deleniti
+                rerum amet aperiam <del>sint impedit accusamus vero dolores</del> aspernatur obcaecati incidunt delectus
+                laborum
+                modi cumque.</p>
+            <p class="lead text-center">Header 3</p>
+            <p class="bg-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius illo iste
+                nostrum excepturi iusto, deleniti
+                rerum amet <code>aperiam</code> sint impedit accusamus vero dolores aspernatur obcaecati incidunt
+                delectus laborum
+                modi cumque.</p>
+        </div>
+
+        <!-- Задание 6 -->
+        <div class="ex6 ex_div">
+            <p class="h1">Задание №6</p>
+            <img src="img/bootstrap-social-logo.png" class="rounded img_style" alt="...">
+            <img src="img/bootstrap-social-logo.png" class="rounded-top img_style" alt="...">
+            <img src="img/bootstrap-social-logo.png" class="rounded-end img_style" alt="...">
+            <img src="img/bootstrap-social-logo.png" class="rounded-bottom img_style" alt="...">
+            <img src="img/bootstrap-social-logo.png" class="rounded-start img_style" alt="...">
+            <img src="img/bootstrap-social-logo.png" class="rounded-circle img_style" alt="...">
+            <img src="img/bootstrap-social-logo.png" class="rounded-pill img_style" alt="...">
+        </div>
+
+        <!-- Задание 7 -->
+        <div class="ex7 ex_div">
+            <p class="h1">Задание №7</p>
+            <div class="btn-group dropend">
+                <button class="btn btn-secondary dropdown-toggle bg-primary " type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Выпадающий список
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#"><i class="fab fa-html5 text-danger icon_style"></i> HTML</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#"><i class="fab fa-css3-alt text-primary icon_style"></i>
+                            CSS</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fab fa-js text-warning icon_style"></i>JS</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Задание 8 -->
+        <div class="ex7 ex_div">
+            <p class="h1">Задание №8</p>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Panel Heading</div>
+                <div class="panel-body">Panel Content</div>
+                <div class="panel-footer">Panel Footer</div>
+            </div>
+        </div>
+
+        <!-- Задание 9 -->
+        <div class="ex7 ex_div">
+            <p class="h1">Задание №9</p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Почему стоит поступать в БГТУ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Подготовка кадров с высшим образованием осуществляется на восьми факультетах университета:
+                            лесохозяйственном, технологии и техники лесной промышленности, технологии органических
+                            веществ, химической технологии и техники, инженерно-экономическом, издательского дела и
+                            полиграфии, информационных технологиях и факультете заочного обучения для лесного хозяйства,
+                            лесозаготовительной, деревообрабатывающей, целлюлозно-бумажной, электронной,
+                            микробиологической, химической, лесохимической, машиностроительной, нефтехимической,
+                            полиграфической промышленности, для промышленности строительных материалов, медицинских
+                            препаратов, для сферы экологического туризма и природопользования, центров стандартизации и
+                            сертификации, организаций редакционно-издательского, экологического, садово-паркового
+                            профиля и других отраслей экономики Республики Беларусь. Образовательный процесс
+                            осуществляют 628 преподавателей 52 кафедры, среди них: 62 доктора наук, 395 кандидатов наук,
+                            48 профессоров и 254 доцента.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Какие специальности на факультете ИТ?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Факультет ИТ готовит специалистов по 4 специальностям:
+                            1-40 05 01 «Информационные системы и технологии» (выпускающая кафедра информационных систем
+                            и технологий)
+                            1-98 01 03 «Программное обеспечение информационной безопасности мобильных систем»
+                            (выпускающая кафедра информационных систем и технологий)
+                            1-40 01 01 «Программное обеспечение информационных технологий» (выпускающая кафедра
+                            информационных систем и технологий)
+                            1-47 01 02 «Дизайн электронных и веб-изданий» (выпускающая кафедра информационных систем и
+                            технологий)
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Задание 10 -->
+        <div class="ex7 ex_div">
+            <p class="h1">Задание №10</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Показать всплывающее окно
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Заголовок</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Текст уведомления
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap/jquery-3.5.1.min.js"></script>
+
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

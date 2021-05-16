@@ -1,0 +1,41 @@
+
+body {
+    background: gainsboro;
+}
+
+.padding_div {
+    padding: 20px;
+}
+
+.ex_div {
+    background: white;
+    margin-top: 30px;
+    padding: 5%;
+}
+
+.img_style {
+    width: 150px;
+    margin: 10px;
+}
+
+.icon_style {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.wrapper {
+    padding: 5% 25%;
+    background: gainsboro;
+    width: 100%;
+}
+
+/* --------------- ex1 --------------- */
+.wrapper .ex1 {
+    background: white;
+    padding: 5%;
+}
+
+.tab_content_style {
+    background-color: whitesmoke;
+    padding: 20px;
+}
